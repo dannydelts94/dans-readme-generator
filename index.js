@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const { error } = require('console');
+const generateMarkdown = require('generateMarkdown.js');
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -61,10 +62,10 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributionGuidlines',
+        name: 'contributionGuidelines',
         message: 'How can users contribute to your project?',
-        validate: contributionGuidlineInput => {
-            if (contributionGuidlineInput) {
+        validate: contributionGuidelineInput => {
+            if (contributionGuidelineInput) {
                 return true;
             } else {
                 console.log('Please enter contribution guidelines!');
@@ -140,7 +141,11 @@ function writeToFile(fileName, data) {
  };
 
 // TODO: Create a function to initialize app
-function init() { }
+function init() { 
+
+
+    console.log(`Please respond to the following propmts`)
+}
 
 // Function call to initialize app
 init();
