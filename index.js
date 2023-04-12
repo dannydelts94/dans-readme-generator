@@ -98,6 +98,34 @@ const questions = [
             'Mozilla Public License 2.0',
         ],
     },
+    {
+        type: 'input',
+        name: 'ghUserName',
+        message: 'What is your GitHub username?',
+        validate: userNameInput => {
+            if (userNameInput) {
+                return true;
+            } else {
+                console.log('Please enter your GitHub username!');
+                return false;
+            }
+
+        }
+    },
+    {
+        type: 'input',
+        name: 'emailAddress',
+        message: 'What is your email address?',
+        validate: emailaddressInput => {
+            if (emailaddressInput) {
+                return true;
+            } else {
+                console.log('Please enter your email address!');
+                return false;
+            }
+
+        }
+    },
 ];
 
 // TODO: Create a function to write README file
