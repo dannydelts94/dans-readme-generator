@@ -1,37 +1,25 @@
 
-  # lions and tigers and bear oh my
-
-  ## Description
-  its cool
-
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
-
-  ## Installation 
-  nope
-
-  ## Usage
-  undefined
-
-  ## License
+# dans readme
+## Description
+its amazing
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+## Installation 
+just do it
+## Usage
+used it 
+## License
+![badge](https://img.shields.io/badge/license-MIT License-important)
   
-    ## License
-    MIT License
-    
-  [![License Badge](https://img.shields.io/badge/License-&ensp;MIT License-yellow)](https://choosealicense.com/licenses/-mit license);
-  
-
-  ## Contributing
-  email me
-
-  ## Tests
-  test it
-
-  ## Questions
-If you have questions or comments please refer to the repo [dannydelts94](https://github.com/dannydelts94) or email me at rescigno.d@protonmail.com
-
+Please read more about the MIT License license. <https://opensource.org/licenses/MIT License>
+## Contributing
+fkflfkl
+ ## Tests
+sksks
+## Questions
+If you have questions or comments please refer to the repo [dannds](https://github.com/dannds) or email me at dkldkdl
