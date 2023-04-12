@@ -95,7 +95,7 @@ const questions = [
         choices: [
             'MIT License',
             'Creative Commons Zero v1.0 Universal',
-            'The Unlicense',
+            'none',
             'Mozilla Public License 2.0',
         ],
     },
