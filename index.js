@@ -1,13 +1,13 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { error } = require('console');
-const generateMarkdown = require('generateMarkdown.js');
+const generateMarkdown = require('./generateMarkdown');
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
         type: 'input',
         name: 'projectTitle',
-        message: 'What is the tile of your project?',
+        message: 'What is the title of your project?',
         validate: projectTitleInput => {
             if (projectTitleInput) {
                 return true;
@@ -137,15 +137,21 @@ function writeToFile(fileName, data) {
 
         console.log('Your README was created!');
     })
-       
- };
+
+};
 
 // TODO: Create a function to initialize app
-function init() { 
+function init() {
 
 
-    console.log(`Please respond to the following propmts`)
-}
+    console.log(`Please respond to the following prompts to generate your README!`);
+  
+    inquirer.prompt(questions)
+    .then(readmeData => {
+writeToFile('/Users/danielrescigno/pen_bootcamp/challenges/dans-readme-generator/generated/readme.md' , generateMarkdown(readmeData))
+    })
+};
 
 // Function call to initialize app
 init();
+
