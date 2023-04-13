@@ -18,4 +18,6 @@ MIT
 
 ## Video Link
 
-[App video](https://drive.google.com/file/d/1yAnbiba9sVGX6MH5gvJhG51pf6FVe6a5/view)
+[Click to Watch App Video](https://drive.google.com/file/d/1yAnbiba9sVGX6MH5gvJhG51pf6FVe6a5/view)
+
+![README GEN](/assets/screenshot%20rdmegen.png)
