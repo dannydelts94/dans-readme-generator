@@ -16,9 +16,9 @@ ${installationInstructions}
 ## Usage
 ${usageInformation}
 ## License
-![badge](https://img.shields.io/badge/license-${licenseList}-important)
+![badge](https://img.shields.io/badge/license-MIT%20License-yellow)
   
-Please read more about the ${licenseList}. <https://opensource.org/licenses/${licenseList}>
+Please read more about the ${licenseList}. <https://opensource.org/license/mit>
 ## Contributing
 ${contributionGuidelines}
  ## Tests

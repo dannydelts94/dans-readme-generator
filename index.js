@@ -148,7 +148,7 @@ function init() {
   
     inquirer.prompt(questions)
     .then(readmeData => {
-writeToFile('/Users/danielrescigno/pen_bootcamp/challenges/dans-readme-generator/generated/readme.md' , generateMarkdown(readmeData))
+writeToFile('/Users/danielrescigno/pen_bootcamp/challenges/dans-readme-generator/output/readme.md' , generateMarkdown(readmeData))
     })
 };
 
